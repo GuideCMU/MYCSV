@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik+Pixels&family=Tiny5&display=swap');
+
+strong{
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: "Oswald", serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    font-family: "Oswald", serif;
+}
+
+
+
+.profilepic {
+    padding: min(20vw,8%);
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px;
+    margin: 7px;
+}
+
+.navbar {
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    transition: background 0.3s ease;
+     
+  }
+.navbar-brand {
+    margin-left:15%;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) ;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: rgba(127, 127, 127, 0.477) ;
+}
+.navbar-nav {
+    margin-right: 17%;
+}
+
+.profileinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.contactinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.profileicon {
+    display: flex;
+}
+
+.row {
+    justify-content: center;
+}
+
+.infobox {
+    margin: 10%;
+    padding: 5%;
+    
+    border-radius: 10%;
+}
+
+p{
+    text-align: justify;
+    color: white;
+}
+
+.divider {
+    color: white;
+}
+
+h5{
+    font-weight: bold;
+    font-family: "Oswald", serif;
+    color: white;
+}
+
+h6{
+    font-weight: 500;
+    font-family: "Oswald", serif;
+    color: white;
+}
+
+.progress {
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: linear-gradient(135deg, #ffffff, #b3aeae);
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+.portfoliobox {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    align-content: center;
+    justify-content: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
